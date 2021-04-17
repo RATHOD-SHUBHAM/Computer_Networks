@@ -1,0 +1,89 @@
+No.     Time               Source                Destination           Protocol Length Info
+     68 21:14:13.928692    192.168.1.2           128.119.245.12        HTTP     555    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 68: 555 bytes on wire (4440 bits), 555 bytes captured (4440 bits) on interface \Device\NPF_{7D9CB7DD-DCCE-4269-B454-F26AB02EDDE4}, id 0
+Ethernet II, Src: HewlettP_7f:e8:f5 (74:46:a0:7f:e8:f5), Dst: Netgear_ab:c2:0e (cc:40:d0:ab:c2:0e)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 541
+    Identification: 0x178c (6028)
+    Flags: 0x4000, Don't fragment
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51376, Dst Port: 80, Seq: 1, Ack: 1, Len: 501
+Hypertext Transfer Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     84 21:14:13.981218    128.119.245.12        192.168.1.2           HTTP     491    HTTP/1.1 200 OK  (text/html)
+
+Frame 84: 491 bytes on wire (3928 bits), 491 bytes captured (3928 bits) on interface \Device\NPF_{7D9CB7DD-DCCE-4269-B454-F26AB02EDDE4}, id 0
+Ethernet II, Src: Netgear_ab:c2:0e (cc:40:d0:ab:c2:0e), Dst: HewlettP_7f:e8:f5 (74:46:a0:7f:e8:f5)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 477
+    Identification: 0xd25b (53851)
+    Flags: 0x4000, Don't fragment
+    Fragment offset: 0
+    Time to live: 44
+    Protocol: TCP (6)
+    Header checksum: 0x4391 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.1.2
+Transmission Control Protocol, Src Port: 80, Dst Port: 51376, Seq: 1, Ack: 502, Len: 437
+Hypertext Transfer Protocol
+Line-based text data: text/html (3 lines)
+
+No.     Time               Source                Destination           Protocol Length Info
+    111 21:14:15.644125    192.168.1.2           128.119.245.12        HTTP     487    GET /favicon.ico HTTP/1.1 
+
+Frame 111: 487 bytes on wire (3896 bits), 487 bytes captured (3896 bits) on interface \Device\NPF_{7D9CB7DD-DCCE-4269-B454-F26AB02EDDE4}, id 0
+Ethernet II, Src: HewlettP_7f:e8:f5 (74:46:a0:7f:e8:f5), Dst: Netgear_ab:c2:0e (cc:40:d0:ab:c2:0e)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 473
+    Identification: 0x178f (6031)
+    Flags: 0x4000, Don't fragment
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51376, Dst Port: 80, Seq: 502, Ack: 438, Len: 433
+Hypertext Transfer Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+    113 21:14:15.693483    128.119.245.12        192.168.1.2           HTTP     537    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 113: 537 bytes on wire (4296 bits), 537 bytes captured (4296 bits) on interface \Device\NPF_{7D9CB7DD-DCCE-4269-B454-F26AB02EDDE4}, id 0
+Ethernet II, Src: Netgear_ab:c2:0e (cc:40:d0:ab:c2:0e), Dst: HewlettP_7f:e8:f5 (74:46:a0:7f:e8:f5)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 523
+    Identification: 0xd25c (53852)
+    Flags: 0x4000, Don't fragment
+    Fragment offset: 0
+    Time to live: 44
+    Protocol: TCP (6)
+    Header checksum: 0x4362 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.1.2
+Transmission Control Protocol, Src Port: 80, Dst Port: 51376, Seq: 438, Ack: 935, Len: 483
+Hypertext Transfer Protocol
+Line-based text data: text/html (7 lines)

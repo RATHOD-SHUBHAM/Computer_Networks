@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shubhamrathod/CLionProjects/TCP/cmake-build-debug/Client.c
+Client.h
+/Users/shubhamrathod/CLionProjects/TCP/cmake-build-debug/Client.h
+
+/Users/shubhamrathod/CLionProjects/TCP/cmake-build-debug/Client.h
+
