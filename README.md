@@ -5,4 +5,5 @@
 
    Wireshark is a shareware packet sniffer. The basic tool for observing the messages exchanged between executing protocol entities is called a packet sniffer. As the name suggests, a packet sniffer passively copies ("sniffs") messages being sent from and received by your computer; it will also display the contents of the various protocol fields of these captured messages.
 
-    - These Lab helped me deepen my knowledge about working of the protocols. My reading from the lab are available above.
+    - These Lab helped me deepen my knowledge about working of the protocols.  
+       My reading from the lab are available above.
